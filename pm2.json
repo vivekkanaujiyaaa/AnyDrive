@@ -1,0 +1,20 @@
+{
+  "apps": [{
+    "name": "app",
+    "script": "./index.js",
+    "instances": "max",
+    "cwd": "./",
+    "watch": false,
+    "exec_mode": "cluster",
+    "max_memory_restart": "512M",
+    "autorestart": true,
+    "min_uptime": "3s",
+    "max_restarts": 3,
+    "instance_var": "NODE_INSTANCE",
+    "node_args": [],
+    "args": [],
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }]
+}

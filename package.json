@@ -1,0 +1,21 @@
+{
+  "name": "anydrive",
+  "version": "0.0.1",
+  "description": "Personal cloud storage powered by OneDrive.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "onedrive",
+    "cloud storage"
+  ],
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "author": "Baffin Lee",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "koa": "^2.5.1"
+  }
+}
